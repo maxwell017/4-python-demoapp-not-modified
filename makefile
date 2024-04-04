@@ -1,7 +1,7 @@
 # Used by `image`, `push` & `deploy` targets, override as required
 IMAGE_REG ?= docker.io
 IMAGE_REPO ?= maxwell017/pythonwebapp
-IMAGE_TAG ?= latest
+IMAGE_TAG ?= v1
 
 # Used by `deploy` target, sets Azure webap defaults, override as required
 AZURE_RES_GROUP ?= temp-demoapps
